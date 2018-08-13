@@ -1,0 +1,93 @@
+body {
+	font-family:Comic Sans MS;
+	background-image:url("ali-abdul-rahman-599798-unsplash.jpg");
+	background-position:auto;
+	background-size:cover;
+	background-repeat:no-repeat;
+	}
+	
+hgroup {
+	width:90%;
+	overflow:hidden;
+	margin:0px auto;
+	padding-left:1em;
+	color:white;
+	text-align:center;
+}
+
+hgroup h1 {
+    float: left;
+	font-size:50px;
+}
+
+hgroup h2 {
+	font-size:40px;
+    float:right;
+	margin-left:1em;
+	padding-top:10px;
+}
+
+ul li{
+	list-style-type:circle;
+    column-gap: 20px;
+}
+a {
+	color:white;
+	margin:1.5em;
+}
+
+section {
+	margin:0px auto;
+	padding-left:1em;
+	background-color: rgba(0,0,0,.3);
+	color:white;
+}
+section h1{
+	font-size:2.5em;
+	color:white;
+}
+
+#Buttons{
+		color:white;
+		text-align:center;
+		font-size:1.6em;
+		margin:20px;
+}
+#Buttons a{
+    padding:20px;
+	text-decoration:none; 
+}
+#Buttons a:hover{
+	background-color:black;
+}
+
+#About_Me {
+	overflow:hidden;
+}
+#Skills {
+	overflow:hidden;
+	column-count: 2;
+}
+#Skills li {
+	font-size:1.5em;
+}
+#Experience {
+	overflow:hidden;
+}
+
+#Personal {
+	overflow:hidden;
+	padding:10px;
+}
+
+#endHR {
+	border-color:black;
+	border-bottom-width:3px;
+}
+
+footer{	
+	margin:0px auto;
+	padding:1em;
+	color:white;
+	text-align:center;
+}
