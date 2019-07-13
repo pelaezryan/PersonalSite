@@ -33,11 +33,10 @@ ul li{
 }
 a {
 	color:white;
-	margin:1.5em;
+    width: 100%;
 }
 
 section {
-	margin:0px auto;
 	padding-left:1em;
 	background-color: rgba(0,0,0,.3);
 	color:white;
@@ -54,15 +53,32 @@ section h1{
 		margin:20px;
 }
 #Buttons a{
-    padding:20px;
 	text-decoration:none; 
 }
 #Buttons a:hover{
-	background-color:black;
+	background-color:grey;
 }
 
 #About_Me {
 	overflow:hidden;
+}
+#ContentPanel
+{
+    float:none;
+    margin-left:25%;
+    color:yellow;  
+    padding-left:10px;
+}
+#InfoPanel {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 25%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 40px;
 }
 #Skills {
 	overflow:hidden;
