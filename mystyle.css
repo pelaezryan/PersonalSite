@@ -65,13 +65,13 @@ section h1{
 #ContentPanel
 {
     float:none;
-    margin-left:25%;
+    margin-left:20%;
     color:yellow;  
     padding-left:10px;
 }
 #InfoPanel {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 25%; /* Set the width of the sidebar */
+    width: 20%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
